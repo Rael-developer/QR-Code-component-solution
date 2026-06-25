@@ -12,7 +12,7 @@ Esta é a minha solução para o desafio [QR code component do Frontend Mentor](
   - [O que eu aprendi](#o-que-eu-aprendi)
   - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
 - [Autor](#autor)
-- [Screenshot] (#Screenshot)
+- [Screenshot](#Screenshot)
 
 ## Visão Geral
 
@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL do Site ao vivo: [Substitua pela URL do site hospedado (ex: GitHub Pages ou Vercel)]
+- URL do Site ao vivo: [https://rael-developer.github.io/QR-Code-component-solution/]
 
 ## Meu Processo
 
