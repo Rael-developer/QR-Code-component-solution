@@ -1,0 +1,70 @@
+body {
+    font-family: 'outfit';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa 100% da altura da tela */
+    /* Mantenha os seus estilos anteriores de display: flex, background, et. e adicione */
+    padding: 0 20px; /* Garante no mínimo 20px de margemnas lateraisdo celular */
+    background-color: hsl(212, 45%, 89%); /* Cor de fundo do desafio */
+}
+
+.qr-card {
+    background-color: white;
+    border-radius: 10px; /* Altere o valor em px para aumentar ou diminuir */
+    padding: 10px; /* Afasta o conteúdo em 20px de todas as bordas */
+    width: 100%;
+    max-width: 320px; 
+}
+
+.qr-image {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.qr-title {
+    font-size: 90%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.qr-description {
+    font-size: 95%; /* Tamanho sugerido no style guide */
+    text-align: center;
+    color: hsl(220, 15%, 55%); /* Cor cinza do texto */
+}
+
+.attribution{
+    position: absolute;
+    bottom: 20px; /* Empurra o texto 20px para cima a partir do fim da tela */
+    text-align: center; 
+    font-size: 14px; /* Deixa  fonte num tamanho discreto */
+    color: hsl(220, 15%, 55%); /* Usa o mesmo cinza da descrição para manter a harmonia */   
+}
+
+/* A virgula aplica a mesma regra para o link normal E para o link visitado */
+.attribution a,
+.attribution a:visited{
+    color: hsl(218, 44%, 22%); /* Mantém o Israel Tech com um azul forte */
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+/* O código padrão (sem media query) atende ao mobile (375px)
+/* Quando a tela atingir o MÍNIMO de 768px  (Tablets até Desktop de 1440px) */
+@media (min-width: 768px) {
+    .qr-card {
+        /* Aumenta um pouquinho o tamanho máximo do cartão e o respiro interno para monitores maiores */
+        max-width: 350px;
+        padding: 24px;    
+    }
+
+    .qr-code{
+        /* Aumenta sutilmente a fonte para leitura no computador */
+        font-size: 22px;
+    }
+}
